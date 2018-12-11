@@ -1,0 +1,92 @@
+
+// @import '../../node_modules/antd-mobile/dist/antd-mobile.css';
+@import './common.scss';
+html,body{
+    // position: relative;
+}
+.Log{
+    width: rem(270);
+    height: rem(340);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   border: 1px solid red; 
+    padding: rem(20) rem(40);
+    box-sizing: border-box;
+    .checked{
+        border-bottom: rem(2) solid #fa7694;
+    }
+    ul{
+
+        li{
+            // float: left;
+            width:50%;
+            height: rem(30);
+            font-size: rem(18);
+            text-align: center;
+            color: #fa7694;
+            float: left;
+            box-sizing: border-box;
+            
+        }
+        p{
+            font-size: rem(12);
+            color: #484848;
+           
+            line-height: rem(30);
+            margin-top: rem(10);
+        }
+        .mima{
+            width: rem(180);
+            height: rem(30);
+            
+            span{
+                float: left;
+               height: rem(30);
+                font-size: rem(12);
+               width:  rem(37);
+               line-height: rem(30);
+               border: 1px solid  darkgrey;
+            }
+            .us{
+                margin-left: rem(5);
+                float: left;
+            width: rem(134);
+            height: rem(30);
+            border: 1px solid  darkgrey;
+            }
+        }
+        .ps{
+            width: rem(180);
+            height: rem(30);
+            border: 1px solid  darkgrey;
+        }
+        .botton{
+           
+            span{
+                display: inline-block;
+                width: rem(84);
+                height: rem(36);
+                font-size: rem(14);
+                margin-left: rem(5);
+                text-align: center;
+                border-radius: rem(5);
+            }
+            .quxiao{
+                background: darkgray;
+                line-height: rem(36);
+            }
+            .login{
+                line-height: rem(36);
+                color: #fff;
+                 background: #fa7694;
+            }
+        }
+        .reg{
+            font-size: rem(12);
+            color: gray;
+            margin-right: rem(30);
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import './common.scss';
+html,body{height:100%;position: relative;}
+// html,body{height:100%}
+// #root{width:100%}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    background: white;
+    // right: 0;
+    width: rem(375);
+    height: rem(44.5);
+    // border:rem(1) solid gray; 
+   padding: 0 rem(0.48);
+    display: flex;
+    box-sizing: border-box;
+    .logo{
+        color: pink;
+        flex:5;
+        line-height: rem(40);
+        img{
+            width: rem(44);
+            height: rem(22);
+        }
+    }
+    .search{
+        flex:1;
+        color:gray;
+        font-size: rem(22);
+        line-height: rem(44.5);
+    }
+    .header-right{
+        flex:4;
+        color:gray;
+        font-size: rem(22);
+        line-height: rem(44.5);
+    }
+}

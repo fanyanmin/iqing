@@ -1,0 +1,81 @@
+
+
+@import './common.scss';
+// @import '../../node_modules/antd-mobile/dist/antd-mobile.css';
+.Search{
+    box-sizing: border-box;
+    width: rem(375);
+    margin-top: rem(44.5);
+    position: relative;
+    .checked{
+        border-bottom: rem(2) solid #fa7694;
+    }
+    .top{
+        position: fixed;
+        top: rem(44.5);
+        left: 0;
+        width: rem(375);
+        padding-left: rem(20);
+        padding-right: rem(20);
+        padding-top: rem(5);
+        padding-bottom: rem(5);
+        box-sizing: border-box;
+        display: flex;
+        height: rem(34.98);
+        background: #f8f8f8;
+    }
+    .back{
+        flex:1;
+        font-size: rem(16)
+    }
+   
+    .input{
+        flex: 5;
+        border: 1px solid #eee;
+        border-radius: rem(5);
+        font-size: rem(12);
+
+    }
+    .icon-search{
+        font-size: rem(16);
+        color: darkgray;
+        position: absolute;
+        left: rem(80);
+    }
+    .search{
+        flex: 1;
+        font-size: rem(12);
+        text-align:center;
+        line-height: rem(24.98);
+        color: #eee;
+    margin-left: rem(5);
+    background: #fa8e9b;
+    }
+
+    .nav{
+        position: fixed;
+        top:  rem(79.98);
+        background: white;
+        width: rem(375);
+        height: rem(29);
+        display: flex;
+        li{
+            flex:1;
+            font-size: rem(12);
+            text-align: center;
+        }
+        li:active{
+            color: #fa8e9b;
+            border-bottom: 1px solid #fa8e9b;
+        }
+        .active{
+            color: #fa8e9b;
+            border-bottom: 1px solid #fa8e9b;
+        }
+    }
+    // .tabs{
+    //     font-size: rem(12);
+    //     margin-top: rem(100)
+    // }
+    
+}

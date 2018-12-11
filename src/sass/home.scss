@@ -1,0 +1,220 @@
+@import './common.scss';
+.home{
+    margin-top: rem(44.5);
+    overflow: scroll;
+    
+    .recommend{
+        width: rem(375);
+        height: rem(23);
+        font-size: rem(16);
+        color: #fa8e9b;
+        text-align: center;
+        line-height: rem(23);
+        border-bottom: 1px solid #d2d2d2;
+    }
+    .swiper{
+        img{
+            width: rem(375);
+            height:rem(187.5);
+            verticalAlign: top;
+        }
+    }
+    .container{
+        overflow: scroll;
+        box-sizing: border-box;
+        padding-left: rem(10);
+        padding-right: rem(10);
+        width: rem(375);
+        .tit{
+            font-size: rem(14);
+            line-height: rem(40);
+            height: rem(40);
+        }
+        .qtlist{
+            display: flex;
+            flex-wrap: wrap;
+            height: rem(300);
+            border-bottom: 1px dashed grey;
+            .qt-li{
+                flex:33%;
+                display: inline-block;
+                width: rem(111);
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                
+                img{
+                    width: rem(111);
+                    height: rem(111);
+                }
+                span{
+                    font-size: rem(14);
+                }
+            }
+        }
+
+        .xxlist{
+            display: flex;
+            height: rem(120);
+            border-bottom: 1px dashed grey;
+            // width: rem(375);
+            .xx-li{
+                flex:1;
+                display: inline-block;
+                // width: rem(111);
+                display: flex;
+                // flex-direction: column;
+                height: auto;
+               
+                img{
+                    width: rem(79.5);
+                    height: rem(106);
+                }
+                .xx-right{
+                    margin-left: rem(10);
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-size: rem(12);
+                        width: rem(80.48);
+                        height: rem(53.39);
+                    }
+                    p{
+                        font-size: rem(12);
+                        width: rem(80.48);
+                        height: rem(46.39);
+                    }
+                }
+                
+            }
+        }
+
+        .tjlist{
+            display: flex;
+            flex-wrap: wrap;
+            height: rem(272.78);
+            // width: rem(375);
+            border-bottom: 1px dashed grey;
+            .tj-li{
+                flex:25%;
+                display: inline-block;
+                // width: rem(111);
+                display: flex;
+                flex-direction: column;
+                height: rem(126.39);
+                
+                img{
+                    width: rem(79.5);
+                    height: rem(106);
+                }
+                span{
+                    font-size: rem(12);
+                    width: rem(79.5);
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+            }
+        }
+        .yhlist{
+            display: flex;
+            flex-wrap: wrap;
+            height: rem(145);
+            // width: rem(375);
+            border-bottom: 1px dashed grey;
+            .yh-li{
+                flex:25%;
+                display: inline-block;
+                // width: rem(111);
+                display: flex;
+                flex-direction: column;
+                height: rem(126.39);
+                
+                img{
+                    width: rem(79.5);
+                    height: rem(106);
+                }
+                span{
+                    font-size: rem(12);
+                    width: rem(79.5);
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+            }
+        }
+        .fqlist{
+            display: flex;
+            flex-wrap: wrap;
+            height: rem(1024);
+            border-bottom: 1px dashed grey;
+            // width: rem(375);
+            .fq-li{
+                flex:50%;
+                display: inline-block;
+                // width: rem(111);
+                display: flex;
+                // flex-direction: column;
+                height: auto;
+               
+                img{
+                    width: rem(79.5);
+                    height: rem(106);
+                }
+                .fq-right{
+                    margin-left: rem(10);
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-size: rem(12);
+                        width: rem(80.48);
+                        height: rem(53.39);
+                    }
+                    p{
+                        font-size: rem(12);
+                        width: rem(80.48);
+                        height: rem(46.39);
+                    }
+                }
+                
+            }
+        }
+        .lastest-list{
+            // width: rem(375);
+            
+            height: auto;
+            display: flex;
+            flex-direction: column;
+           .lastest-li{
+            //    width: rem(375);
+            height: rem(117.02);
+            box-sizing: border-box;
+            padding: rem(.26667) rem(.14667);
+
+                img{
+                    width: rem(79.5);
+                    height: rem(106);
+                    float: left;
+                }
+                .lastest-right{
+                    margin-left: rem(15);
+                    float: left;
+                    span{
+                        width: rem(192);
+                        display: block;
+                        font-size: rem(12);
+                        height: rem(50);
+                        overflow: hidden;
+                    }
+                    p{
+                        font-size: rem(12);
+                    }
+                }
+           }
+            
+            
+        }
+
+    }
+    
+}
